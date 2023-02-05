@@ -1,0 +1,27 @@
+body{
+    background: rgb(235, 167, 167);
+}
+h1{
+    text-align: center;
+    padding-top:10vh;
+}
+#btn1{
+    margin-left: 30%;
+}
+
+#btn2{
+   margin-left: 10%; 
+}
+
+#affiche-cookie{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+#creer-modifier-erreur{
+    
+    width: 10%;
+    height: 5vh;
+    margin-top: 20vh;
+    float: right;
+}

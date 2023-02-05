@@ -1,0 +1,21 @@
+li{
+    list-style: none;
+}
+
+#villes{
+    text-align: center;
+}
+
+#jour img{
+    width: 30px;
+    height: 30px;
+}
+
+#jour li{
+    float: left;
+    margin-left: 4%;
+}
+
+#jour{
+    text-align: center;
+}

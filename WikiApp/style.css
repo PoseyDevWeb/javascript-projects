@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(184, 174, 174);
+}
+#recherche{
+    text-align: center;
+}
+#principal{
+    width: 60%;
+    margin-left: 20%;
+    min-height: 80vh;
+  
+    margin-top: 5vh;
+  
+}
+img{
+    width: 40%;
+    height: 40%;
+   
+}
+li{
+    list-style: none;
+}
+h2{
+    color: green;
+    text-decoration: none;
+}
+
+#recherche p{
+    font-size: 50px;
+}
+
+input[type="text"]{
+    width: 70%;
+    height: 5vh;
+   
+}
+
+input[type="submit"]{
+    width: 10%;
+    height: 6vh;
+    margin-left: -4px;
+    border: 2px solid  gray ;
+    background-color: gray;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#resultat{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.link-result{
+    text-decoration: none;
+    color: rgb(9, 104, 9);
+    font-size: 18px;
+}
+
+.link-target{
+    font-size: 25px;
+}

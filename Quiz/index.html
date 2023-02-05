@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <div id="principal">
+      <div id="option">
+        <ul>
+          <li>
+            <label for="input">Quiz Culture General</label>
+            <input type="checkbox" name="input" id="input" checked />
+          </li>
+        </ul>
+      </div>
+      <div class="quiz" id="div-id-quiz1">
+        <ul id="quiz1">
+          <br />
+          <h1 id="h1-1"></h1>
+          <li id="list1">
+            <input type="radio" name="quiz1" id="vrai1-1" /><label
+              for="vrai1-1"
+              id="label1-1"
+              value="vrai"
+            ></label
+            ><br /><br />
+            <input type="radio" name="quiz1" id="faux1-1" checked /><label
+              for="faux1-1"
+              id="label1-2"
+            ></label
+            ><br /><br />
+            <input type="radio" name="quiz1" id="faux2-1" /><label
+              for="faux2-1"
+              id="label1-3"
+            ></label
+            ><br /><br />
+          </li>
+        </ul>
+      </div>
+
+      <div class="quiz" id="div-id-quiz2">
+        <ul id="quiz2">
+          <br />
+          <h1 id="h1-2"></h1>
+          <li id="list2">
+            <input type="radio" name="quiz2" id="faux1-2" /><label
+              for="faux1-2"
+              id="label2-2"
+            ></label
+            ><br /><br />
+            <input type="radio" name="quiz2" id="faux2-2" checked /><label
+              for="faux2-2"
+              id="label2-3"
+            ></label
+            ><br /><br />
+            <input type="radio" name="quiz2" id="vrai1-2" /><label
+              for="vrai1-2"
+              id="label2-1"
+            ></label
+            ><br /><br />
+          </li>
+        </ul>
+      </div>
+
+      <div class="quiz" id="div-id-quiz3">
+        <ul id="quiz3">
+          <br />
+          <h1 id="h1-3"></h1>
+          <li id="list3">
+            <input type="radio" name="quiz3" id="faux1-3" /><label
+              for="faux1-3"
+              id="label3-2"
+            ></label
+            ><br /><br />
+            <input type="radio" name="quiz3" id="vrai1-3" checked /><label
+              for="vrai1-3"
+              id="label3-1"
+            ></label
+            ><br /><br />
+            <input type="radio" name="qui3" id="faux2-3" /><label
+              for="faux2-3"
+              id="label3-3"
+            ></label
+            ><br /><br />
+          </li>
+        </ul>
+      </div>
+
+      <div class="quiz" id="div-id-quiz4">
+        <ul id="quiz4">
+          <br />
+          <h1 id="h1-4"></h1>
+          <li id="list4">
+            <input type="radio" name="quiz4" id="faux1-4" /><label
+              for="faux1-4"
+              id="label4-2"
+            ></label
+            ><br /><br />
+            <input type="radio" name="quiz4" id="faux2-4" checked /><label
+              for="faux2-4"
+              id="label4-3"
+            ></label
+            ><br /><br />
+            <input type="radio" name="quiz4" id="vrai1-4" /><label
+              for="vrai1-4"
+              id="label4-1"
+            ></label
+            ><br /><br />
+          </li>
+        </ul>
+      </div>
+
+      <div class="quiz" id="div-id-quiz5">
+        <ul id="quiz5">
+          <br />
+          <h1 id="h1-5"></h1>
+          <li id="list5">
+            <input type="radio" name="quiz5" id="vrai1-5" /><label
+              for="vrai1-5"
+              id="label5-1"
+            ></label
+            ><br /><br />
+            <input type="radio" name="quiz5" id="faux1-5" checked /><label
+              for="faux1-5"
+              id="label5-2"
+            ></label
+            ><br /><br />
+            <input type="radio" name="quiz5" id="faux2-5" /><label
+              for="faux2-5"
+              id="label5-3"
+            ></label>
+            <br /><br />
+          </li>
+        </ul>
+      </div>
+
+      <input type="button" value="Valider" id="valider" />
+
+      <div id="resultat"></div>
+    </div>
+
+    <script src="quizArray.js"></script>
+    <script src="operations.js"></script>
+  </body>
+</html>

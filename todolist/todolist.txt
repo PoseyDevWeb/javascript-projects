@@ -1,0 +1,9 @@
+Une TODO list est un excellent premier mini projet pour commencer à se familiariser avec l’entrée de données et son affichage. 
+En faisant une todo list, vous apprendrez, par exemple :
+
+Comment gérer et afficher différents elements en fonction de leur état
+Comment créer, récupérer, modifier et supprimer des objets en JavaScript
+Comment aller plus loin avec de la permanence de data localement en explorant localStorage
+Une TODO liste est un projet qui sera souvent repris en exemple quand vous apprendrez des 
+frameworks ou libraires telles que react, react-native, vue.js, angular.js et d’autres.
+ Faire ce projet en JS Vanilla et HTML a donc beaucoup de sens et facilitera votre apprentissage dans le futur.

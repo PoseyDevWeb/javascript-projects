@@ -1,0 +1,62 @@
+body{
+    background: black;
+    
+}
+#imc{
+    width: 60%;
+    height: 80vh;
+    background: whitesmoke;
+    margin-left: 20%;
+    margin-top: 10vh;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    text-decoration:double;
+    padding-top: 8vh;
+}
+label{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+ul{
+    float: left;
+    margin-left: 0%;
+    margin-top: 5vh;
+    
+}
+li{
+    list-style-type: none;
+    
+}
+
+ul input{
+    width: 300px;
+    height: 32px;
+    margin-top: 2%;
+    font-size: 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+#taille-ul{
+    margin-left: 5%;
+}
+
+input[type="button"]{
+    background: green;
+    height: 40px;
+    font-weight: bold;
+    font-style: italic;
+    width: 150px;
+    font-size: 15px;
+    margin-left: 42%;
+    margin-top: 4%;
+
+}
+
+#reponses{
+    text-align: center;
+    margin-top: 2%;
+}

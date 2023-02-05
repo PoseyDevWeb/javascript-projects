@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(53, 50, 50);
+}
+
+#principal{
+    
+    width: 60%;
+    min-height: 100vh;
+    margin-left: 20%;
+
+}
+
+#valider{
+    background: green;
+    font-size: 18px;
+    font-style: italic;
+    width: 120px;
+    height: 6vh;
+    font-weight: bold;
+    margin-left: 45%;
+    margin-top: 2vh;
+
+}
+
+#option{
+   
+    height: 20vh;
+    padding-left: 10px;
+}
+
+#option ul{
+    margin-left: 15vh;
+    padding-top: 4vh;
+    
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+#option input{
+    height: 30px;
+    width: 30px;
+}
+
+#option label{
+    font-size: 50px;
+    
+    
+    color:beige;
+    
+}
+
+
+
+
+
+.quiz{
+    background-color: gainsboro;
+    margin-top: 1vh;
+    min-height:40vh;
+    width: 100%;
+}
+#resultat{
+    background-color: gainsboro;
+    width: 100%;
+    min-height: 10vh;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    padding-top: 1vh;
+}
+li{
+    list-style: none;
+}
+
+  input[type="radio"]{
+   
+   height: 20px;
+   width: 20px;
+   font-style: italic;
+ }
+ label{
+    font-size: 25px;
+    font-style: italic;
+ }
+
+ input[type="submit"]{
+    background: green;
+    font-size: 18px;
+    font-style: italic;
+    width: 90px;
+    height: 5vh;
+    font-weight: bold;  
+ }
